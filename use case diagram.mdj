@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "Untitled",
+	"name": "bicycleSystem",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -14294,7 +14294,37 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "회원가입하기"
+					"name": "회원가입하기",
+					"ownedElements": [
+						{
+							"_type": "UMLCollaboration",
+							"_id": "AAAAAAGWyOj3BfyCcOY=",
+							"_parent": {
+								"$ref": "AAAAAAGWkkm5mjl9C1A="
+							},
+							"name": "회원가입하기",
+							"ownedElements": [
+								{
+									"_type": "UMLClass",
+									"_id": "AAAAAAGWyOlp8wtKG+Y=",
+									"_parent": {
+										"$ref": "AAAAAAGWyOj3BfyCcOY="
+									},
+									"name": "SignUpUI",
+									"stereotype": "boundary"
+								},
+								{
+									"_type": "UMLClass",
+									"_id": "AAAAAAGWyOmlcQw+mSc=",
+									"_parent": {
+										"$ref": "AAAAAAGWyOj3BfyCcOY="
+									},
+									"name": "SignUp",
+									"stereotype": "control"
+								}
+							]
+						}
+					]
 				},
 				{
 					"_type": "UMLUseCase",
@@ -15029,6 +15059,352 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "결제 시스템"
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGWyOvZPhOLscc=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGWyOvZPhOMbug=",
+					"_parent": {
+						"$ref": "AAAAAAGWyOvZPhOLscc="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLCommunicationDiagram",
+							"_id": "AAAAAAGWyOvZPhONFV4=",
+							"_parent": {
+								"$ref": "AAAAAAGWyOvZPhOMbug="
+							},
+							"name": "SignUp",
+							"ownedViews": [
+								{
+									"_type": "UMLFrameView",
+									"_id": "AAAAAAGWyOvZPhOOUjY=",
+									"_parent": {
+										"$ref": "AAAAAAGWyOvZPhONFV4="
+									},
+									"model": {
+										"$ref": "AAAAAAGWyOvZPhONFV4="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGWyOvZPhOPjhg=",
+											"_parent": {
+												"$ref": "AAAAAAGWyOvZPhOOUjY="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 32.72998046875,
+											"top": 13,
+											"width": 42.63720703125,
+											"height": 13,
+											"text": "SignUp"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGWyOvZPxOQB24=",
+											"_parent": {
+												"$ref": "AAAAAAGWyOvZPhOOUjY="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 13,
+											"top": 13,
+											"width": 13.72998046875,
+											"height": 13,
+											"text": "sd"
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 8,
+									"top": 8,
+									"width": 692,
+									"height": 592,
+									"nameLabel": {
+										"$ref": "AAAAAAGWyOvZPhOPjhg="
+									},
+									"frameTypeLabel": {
+										"$ref": "AAAAAAGWyOvZPxOQB24="
+									}
+								},
+								{
+									"_type": "UMLCommLifelineView",
+									"_id": "AAAAAAGWyOwfWxQVO0o=",
+									"_parent": {
+										"$ref": "AAAAAAGWyOvZPhONFV4="
+									},
+									"model": {
+										"$ref": "AAAAAAGWyOwfWxQUZUI="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGWyOwfWxQWO6w=",
+											"_parent": {
+												"$ref": "AAAAAAGWyOwfWxQVO0o="
+											},
+											"model": {
+												"$ref": "AAAAAAGWyOwfWxQUZUI="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGWyOwfXBQXLMM=",
+													"_parent": {
+														"$ref": "AAAAAAGWyOwfWxQWO6w="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"left": -218,
+													"top": -80,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGWyOwfXBQYklg=",
+													"_parent": {
+														"$ref": "AAAAAAGWyOwfWxQWO6w="
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"left": 109,
+													"top": 127,
+													"width": 120.1708984375,
+													"height": 13,
+													"text": "Lifeline1: SignUpUI"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGWyOwfXBQZZGE=",
+													"_parent": {
+														"$ref": "AAAAAAGWyOwfWxQWO6w="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"left": -218,
+													"top": -80,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGWyOwfXBQaBKU=",
+													"_parent": {
+														"$ref": "AAAAAAGWyOwfWxQWO6w="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"left": -218,
+													"top": -80,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 104,
+											"top": 120,
+											"width": 130.1708984375,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGWyOwfXBQXLMM="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGWyOwfXBQYklg="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGWyOwfXBQZZGE="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGWyOwfXBQaBKU="
+											}
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 104,
+									"top": 120,
+									"width": 129.1708984375,
+									"height": 25,
+									"nameCompartment": {
+										"$ref": "AAAAAAGWyOwfWxQWO6w="
+									}
+								},
+								{
+									"_type": "UMLCommLifelineView",
+									"_id": "AAAAAAGWyOwwwxQwvw8=",
+									"_parent": {
+										"$ref": "AAAAAAGWyOvZPhONFV4="
+									},
+									"model": {
+										"$ref": "AAAAAAGWyOwwwxQvilU="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGWyOwwwxQxTF4=",
+											"_parent": {
+												"$ref": "AAAAAAGWyOwwwxQwvw8="
+											},
+											"model": {
+												"$ref": "AAAAAAGWyOwwwxQvilU="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGWyOwwwxQyHQM=",
+													"_parent": {
+														"$ref": "AAAAAAGWyOwwwxQxTF4="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"left": -2,
+													"top": -200,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGWyOwwwxQz+LA=",
+													"_parent": {
+														"$ref": "AAAAAAGWyOwwwxQxTF4="
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"left": 261,
+													"top": 127,
+													"width": 107.1708984375,
+													"height": 13,
+													"text": "Lifeline2: SignUp"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGWyOwwwxQ0hsQ=",
+													"_parent": {
+														"$ref": "AAAAAAGWyOwwwxQxTF4="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"left": -2,
+													"top": -200,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGWyOwwwxQ1UXg=",
+													"_parent": {
+														"$ref": "AAAAAAGWyOwwwxQxTF4="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"left": -2,
+													"top": -200,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 256,
+											"top": 120,
+											"width": 117.1708984375,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGWyOwwwxQyHQM="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGWyOwwwxQz+LA="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGWyOwwwxQ0hsQ="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGWyOwwwxQ1UXg="
+											}
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 256,
+									"top": 120,
+									"width": 116.1708984375,
+									"height": 25,
+									"nameCompartment": {
+										"$ref": "AAAAAAGWyOwwwxQxTF4="
+									}
+								}
+							]
+						}
+					],
+					"participants": [
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGWyOwfWxQUZUI=",
+							"_parent": {
+								"$ref": "AAAAAAGWyOvZPhOMbug="
+							},
+							"name": "Lifeline1",
+							"represent": {
+								"$ref": "AAAAAAGWyOwfWxQTisI="
+							},
+							"isMultiInstance": false
+						},
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGWyOwwwxQvilU=",
+							"_parent": {
+								"$ref": "AAAAAAGWyOvZPhOMbug="
+							},
+							"name": "Lifeline2",
+							"represent": {
+								"$ref": "AAAAAAGWyOwwwxQu66I="
+							},
+							"isMultiInstance": false
+						}
+					]
+				}
+			],
+			"attributes": [
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGWyOwfWxQTisI=",
+					"_parent": {
+						"$ref": "AAAAAAGWyOvZPhOLscc="
+					},
+					"name": "Role1",
+					"type": {
+						"$ref": "AAAAAAGWyOlp8wtKG+Y="
+					}
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGWyOwwwxQu66I=",
+					"_parent": {
+						"$ref": "AAAAAAGWyOvZPhOLscc="
+					},
+					"name": "Role2",
+					"type": {
+						"$ref": "AAAAAAGWyOmlcQw+mSc="
+					}
 				}
 			]
 		}
