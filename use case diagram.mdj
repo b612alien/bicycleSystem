@@ -15783,8 +15783,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 1296,
-									"top": 1175,
+									"left": 760,
+									"top": 1215,
 									"width": 199.59521484375,
 									"height": 10
 								},
@@ -15800,8 +15800,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 825,
-									"top": 596,
+									"left": 289,
+									"top": 636,
 									"width": 10,
 									"height": 10
 								}
@@ -48434,7 +48434,7 @@
 																			"top": 111,
 																			"width": 101.4072265625,
 																			"height": 13,
-																			"text": ": Rental"
+																			"text": ": RentalBicycle"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -48541,7 +48541,7 @@
 																			"top": 111,
 																			"width": 114.4072265625,
 																			"height": 13,
-																			"text": ": RentalUI"
+																			"text": ": RentalBicycleUI"
 																		},
 																		{
 																			"_type": "LabelView",
